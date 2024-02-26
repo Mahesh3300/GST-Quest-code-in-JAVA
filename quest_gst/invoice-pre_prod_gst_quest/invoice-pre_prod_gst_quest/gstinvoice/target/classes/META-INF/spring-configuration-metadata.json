@@ -1,0 +1,147 @@
+{
+  "hints": [],
+  "properties": [
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancel",
+      "name": "cancel-date",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceIrnCancel",
+      "name": "cancel-date",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancel",
+      "name": "cancel-rmrk",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancel",
+      "name": "cancel-rsn-code",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceIrnCancel",
+      "name": "cnl-rem",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceIrnCancel",
+      "name": "cnl-rsn",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancel",
+      "name": "error-details",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceIrnCancel",
+      "name": "error-details",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancel",
+      "name": "error-records-status",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceIrnCancel",
+      "name": "error-records-status",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancel",
+      "name": "eway-bill-no",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancel",
+      "name": "ewb-no",
+      "type": "java.lang.String"
+    },
+    {
+      "description": "A description for 'image.filepath'",
+      "name": "image.filepath",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstinvoiceApplicationService",
+      "name": "image.gst-data",
+      "type": "java.util.List<com.gst.invoice.entity.GstInvoiceEntity>"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstinvoiceApplicationService",
+      "name": "image.gst-data-cancel-irn",
+      "type": "java.util.List<com.gst.invoice.entity.GstInvoiceEntity>"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstinvoiceApplicationService",
+      "name": "image.gst-data-e-w-b-irn",
+      "type": "java.util.List<com.gst.invoice.entity.GstInvoiceEWBEntity>"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstinvoiceApplicationService",
+      "name": "image.gst-data-e-w-b-irn-cancel",
+      "type": "java.util.List<com.gst.invoice.entity.GstInvoiceEWBEntity>"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceIrnCancel",
+      "name": "irn",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceIrnCancelResp",
+      "name": "output-response",
+      "type": "com.gst.invoice.service.GstInvoiceIrnCancel"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancelResponse",
+      "name": "output-response",
+      "type": "com.gst.invoice.service.GstInvoiceEwbCancel"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancel",
+      "name": "status",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.gst.invoice.GSTSwaggerConfig",
+      "name": "swagger.swagger-hostname",
+      "type": "java.lang.String"
+    }
+  ],
+  "groups": [
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancel",
+      "name": "",
+      "type": "com.gst.invoice.service.GstInvoiceEwbCancel"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceIrnCancelResp",
+      "name": "",
+      "type": "com.gst.invoice.service.GstInvoiceIrnCancelResp"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceEwbCancelResponse",
+      "name": "",
+      "type": "com.gst.invoice.service.GstInvoiceEwbCancelResponse"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstInvoiceIrnCancel",
+      "name": "",
+      "type": "com.gst.invoice.service.GstInvoiceIrnCancel"
+    },
+    {
+      "sourceType": "com.gst.invoice.service.GstinvoiceApplicationService",
+      "name": "image",
+      "type": "com.gst.invoice.service.GstinvoiceApplicationService"
+    },
+    {
+      "sourceType": "com.gst.invoice.GSTSwaggerConfig",
+      "name": "swagger",
+      "type": "com.gst.invoice.GSTSwaggerConfig"
+    }
+  ]
+}
